@@ -1,0 +1,205 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: var(--color_2);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--color_1);
+}
+.round {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.margin_make {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.App-link {
+  color: var(--color_3);
+}
+body {
+  background-color: var(--color_2);
+  color: var(--color_1);
+}
+
+.btn-primary {
+  background-color: var(--color_2);
+  color: var(--color_1);
+}
+
+.btn-primary:hover {
+  background-color: var(--color_2);
+}
+
+/* Sidebar styles */
+/* Sidebar Styling */
+.sidebar {
+  position: fixed; /* Position sidebar at the top of the viewport */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 60px; /* Initially show only icons */
+  transition: width 0.5s ease-in-out; /* Smooth transition for width */
+  z-index: 1000; /* Ensure it stays on top */
+  background-color: var(--color_2); /* Set background color */
+}
+
+/* When sidebar is hovered, expand the width */
+.sidebar.open {
+  width: 200px; /* Width when hovered, showing both icons and text */
+}
+
+/* Navigation link styles */
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: var(--color_2);
+  text-decoration: none;
+  position: relative; /* To position text relative to the icon */
+  transition: background-color 0.3s ease;
+  z-index: 100; /* Ensure the text is on top when visible */
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scale-in {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.scale-in.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+/* Icon styles */
+.sidebar-icon {
+  width: 25px; /* Icon size */
+  height: 25px;
+  margin: 10px; 
+  margin-left: 28px;
+  color: var(--color_1);/* Space between icon and text */
+}
+.bigger {
+  width: 1000px;
+  height: 500px;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+/* Initially hide the text */
+.sidebar-text {
+  margin-top: 10px;
+  position: absolute; /* Position text relative to its parent */
+  left: 30%; /* Position it just to the right of the icon */
+  opacity: 0; /* Hide the text by default */
+  white-space: nowrap; /* Prevent the text from wrapping */
+  visibility: hidden; /* Hide it from layout */
+  transition: opacity 0.5s ease-in-out, visibility 0.5s; /* Smooth transition */
+}
+
+/* When sidebar is hovered, show the text */
+.sidebar.open .sidebar-text {
+  visibility: visible; /* Make the text visible */
+  opacity: 1; /* Make the text fully opaque */
+  transition: opacity 0.1s ease-in-out, visibility 0.1s; /* Smooth transition */
+}
+
+/* Optional: Hover effect for nav link */
+.nav-link:hover {
+  background-color: var(--color_5);
+}
+
+
+.margin_set {
+  margin-top: 70px;  
+}
+
+.color_of_elem {
+  color: var(--color_1);
+  text-decoration: none;
+}
+
+.button-container {
+  position: absolute; /* Absolute positioning to place the buttons */
+  right: 20px;  /* Right position */
+  top: 50%;  /* Align vertically in the center */
+  transform: translateY(-50%); /* Adjust for perfect vertical centering */
+  display: flex;
+  gap: 10px; /* Space between the buttons */
+}
+
+.color_of_button {
+  background-color: var(--color_2);
+  color: var(--color_1);
+  border-radius: 10%;
+  width: 60px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.color_of_button:hover {
+  background-color: var(--color_1);
+  color: var(--color_2);
+}
+
+.second_color_of_button {
+  background-color: var(--color_2);
+  color: var(--color_1);
+  border-radius: 10%;
+  border-color: var(--color_1);
+  width: 80px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.second_color_of_button:hover {
+  background-color: var(--color_1);
+  color: var(--color_2);
+}
+
+
+.bg_color {
+  background-color: var(--color_2);
+  border: 5px;
+  border-color: var(--color_1);
+}
+
+.color_of_head {
+  background-color: var(--color_2);
+  color: var(--color_1);
+  padding: 10px;
+  padding-left: 21px;
+}

@@ -1,0 +1,23 @@
+.bd-placeholder-img {
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  button.btn-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  button.btn-link:hover {
+    text-decoration: underline;
+  }
+  
+  .row {
+    margin-top: 30px;
+  }
+  .margin_left_make {
+    margin-left: 20px;
+  }
+  
+  

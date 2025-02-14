@@ -1,0 +1,27 @@
+/* Custom Dark Button */
+.btn-dark-custom {
+    background-color: black; /* Dark gray background */
+    color: #ffffff;           /* White text */
+    border: 1px solid #343a40; /* Border matching the background */
+    padding: 0.75rem 5rem;     /* Padding for consistent sizing */
+    text-decoration: none;
+    font-size: 1.3rem;          /* Font size */
+    font-weight: bold; 
+    border-radius: 1rem;   /* Rounded corners */
+    cursor: pointer;          /* Pointer cursor */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  .btn-dark-custom:hover {
+    background-color: #23272b; /* Slightly darker on hover */
+    transform: translateY(-2px); /* Subtle lift on hover */
+  }
+  
+  .btn-dark-custom:focus, 
+  .btn-dark-custom:active {
+    background-color: #1d2124; /* Even darker for focus/active states */
+    border-color: #1d2124;     /* Matching border color */
+    outline: none;             /* Remove default focus outline */
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); /* Add a focus shadow */
+  }
+  

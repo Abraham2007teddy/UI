@@ -1,0 +1,65 @@
+.make_margin_book {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.ReactPageFlip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;  /* Make sure the flipbook container takes full width */
+  max-width: 600px;  /* Set a maximum width for the flipbook */
+  height: 500px;  /* Height of the flipbook */
+  margin: 0 auto;  /* Center the flipbook horizontally */
+}
+
+.CoverBook,
+.demoPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #d19e1d, #ffd86e, #e3a812); /* Gradient background */
+  font-size: 24px;
+  color: white;
+  height: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  width: 100%;  /* Ensure it takes full width of the container */
+  box-sizing: border-box;  /* To include padding and border in width calculation */
+}
+
+.CoverBook {
+  background: linear-gradient(to right, #1e1e1e, #2c2c2c, #1e1e1e);
+}
+
+.CoverBook h1 {
+  font-size: 32px;
+  text-align: center;
+  color: white;
+}
+.CoverBook p {
+  margin-top: 450px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+.leftText {
+  position: absolute;
+  left: 0;
+  margin-left: 300px;
+  top: 50%;
+  transform: translateY(-100%);  /* Center vertically */
+  font-size: 30px;
+  color: var(--color1);
+  padding: 10px;
+  max-width: 250px;  /* Limit the width of the text */
+  text-align: left;
+  z-index: 0;  /* Ensure it appears above the flipbook */
+}

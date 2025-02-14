@@ -1,0 +1,179 @@
+/* Overall Header Styling */
+/* Change hover and focus color of dropdown items to grey */
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: grey !important;
+  color: white !important;
+}
+.header {
+  background-color: var(--color_1); /* Dark background */
+  color: var(--color_2); /* Light text color */
+  border-bottom: 1px solid #ddd; /* Light gray border */
+  box-shadow: none; /* Subtle shadow */
+  padding: 10px 0;
+  position: relative;
+  z-index: 2000;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  color: var(--color_2); /* Light text for the logo */
+  margin-left: 10px;
+}
+
+/* Centered Text Section */
+.header-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-center .text-center {
+  font-size: 1.2rem;
+  color: var(--color_1); /* Light text color */
+}
+
+/* Button and Dropdown Styling */
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+}
+/* General Icon Styling */
+.social-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.icon-link {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* Hover Effects */
+.icon-link:hover .social-icon {
+  transform: scale(1.1); /* Slightly enlarge the icon */
+  filter: brightness(0.8); /* Darken the icon for a subtle effect */
+}
+
+/* Telegram Specific Hover Effect */
+.icon-link:hover .social-icon[src*="telegram"] {
+  filter: hue-rotate(190deg); /* Change to Telegram's blue */
+}
+
+/* Instagram Specific Hover Effect */
+.icon-link:hover .social-icon[src*="instagram"] {
+  filter: hue-rotate(300deg); /* Change to Instagram's purple/pink */
+}
+
+/* Email Specific Hover Effect */
+.icon-link:hover .social-icon[src*="email"] {
+  filter: hue-rotate(50deg); /* Change to a yellow tint */
+}
+
+/* Whatsapp Specific Hover Effect */
+.icon-link:hover .social-icon[src*="whatsapp"] {
+  filter: hue-rotate(100deg); /* Change to WhatsApp's green */
+}
+
+
+.fix_size {
+  width: 70px;
+  height: 40px;
+}
+
+.header-buttons .btn {
+  font-size: 1rem;
+  padding: 8px 15px;
+  color: var(--color_2); /* Light text for buttons */
+  background-color: var(--color_1); /* Accent color */
+  border: none;
+}
+
+.header-buttons .btn:hover {
+  background-color: var(--color_1); /* Darker accent color on hover */
+}
+
+.make_margin{
+  margin-left: 15px;
+}
+/* Phone Number Section */
+.phone-number-section {
+  background-color: var(--color_2); /* Accent color */
+  color: var(--color_1); /* Light text color */
+  padding: 10px 0;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Dropdown styling for office and language selection */
+.dropdown-toggle {
+  background-color: var(--color_1);
+  color: var(--color_2);
+  border: none;
+  padding: 8px 12px;
+}
+
+.dropdown-item {
+  background-color: var(--color_3);
+  color: var(--color_1);
+  padding: 10px;
+}
+
+.dropdown-item:hover {
+  background-color: var(--color_1);
+  color: var(--color_2)
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+
+  .header-center {
+    display: none; /* Hide center text on smaller screens */
+  }
+
+  .header-buttons {
+    gap: 5px;
+  }
+
+  /* Adjust logo size for smaller screens */
+  .logo-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo-text {
+    font-size: 1rem;
+  }
+
+  /* Ensure dropdowns stack properly on small screens */
+  .dropdown-menu {
+    position: static; /* Prevent absolute positioning */
+    
+  }
+
+  .dropdown-toggle {
+    font-size: 1rem;
+    padding: 8px;
+  }
+}

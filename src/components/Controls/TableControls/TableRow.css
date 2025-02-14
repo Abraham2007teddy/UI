@@ -1,0 +1,39 @@
+.table-cell {
+    background-color: var(--color_2); /* Cell background color */
+    color: var(--color_1); /* Text color for better contrast */
+}
+
+.odd-table-row {
+    background-color: var(--color_3); /* Original color for odd rows */
+    /*transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.even-table-row {
+    background-color: var(--color_2); /* Original color for even rows */
+   /* transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.even-table-row:hover {
+    background-color: var(--color_5);
+}
+
+.odd-table-row:hover {
+    background-color: var(--color_5);
+}
+
+/* Selected state */
+.selected-row {
+    background-color: var(--color_4); /* Color when selected */
+}
+
+/* Reset hover effect for selected row */
+.hovered-row.selected-row {
+    background-color: var(--color_4); /* Keep it black when hovered if selected */
+}
+
+/* Make cells transparent on row hover */
+.even-table-row .table-cell,
+.odd-table-row .table-cell {
+    background-color: transparent; /* Make cells transparent on row hover */
+}

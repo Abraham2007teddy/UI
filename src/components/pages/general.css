@@ -1,0 +1,30 @@
+
+
+/* Ensure the page container uses flex layout */
+.page-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+  }
+  
+  /* Add a small border to the specific div with the bg-color-make class */
+  .bg-color-make {
+    border: 1px solid #ccc; /* Smaller border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    padding: 20px; /* Ensure padding stays consistent */
+    background-color: var(--color2); /* Set background color for the div */
+  }
+  
+  /* Main content area styles (no larger border here) */
+  .main-content {
+    flex-grow: 1;
+    padding-right: 0 !important;
+    padding: 20px;
+    background-color: var(--color2); /* Optional: Main content background color */
+    margin-right: 10px; /* Optional: Some space between content and sidebar */  
+  }
+  
+  /* Optional: Add any global styles specific to Air.js here */
+  .bg-color-make {
+    background-color: var(--color2);
+  }

@@ -1,0 +1,54 @@
+/* Sidebar Styles */
+.sidebar {
+  z-index: 100; /* Ensure dropdown appears on top */
+  margin-top: 61px;
+  width: 255px;
+  background-color: var(--color2); /* Sidebar background color */
+  padding: 10px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1); /* Optional: Shadow for the sidebar */
+  position: sticky;
+  top: 0;
+  right: 0;    /* Align the sidebar to the right */
+}
+/* Sidebar button styles */
+.sidebar-btn {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 7px 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black; /* Black border */
+  text-decoration: none; /* Ensure no underlines */
+  color: black; /* Set text color to black */
+  background-color: transparent; /* Make background transparent by default */
+  transition: border-color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+.sidebar-btn:hover,
+.sidebar-btn:focus {
+  border-color: black; /* Keep black border */
+  background-color: black; /* White background on hover */
+  color: white; /* Ensure text stays black */
+}
+
+.sidebar-btn:hover .sidebar-btn-icon,
+.sidebar-btn:focus .sidebar-btn-icon {
+  filter: invert(1); /* Inverts the colors of the image (turns black images to white) */
+}
+
+.sidebar-btn:active {
+  background-color: black; /* Black background when active */
+  color: white; /* Text color becomes white when active */
+  border-color: black; /* Border stays black */
+}
+
+.sidebar-btn-icon {
+  width: 24px; /* Adjust size */  
+  height: 24px; /* Adjust size */
+  margin-right: 10px; /* Space between the icon and text */
+  vertical-align: middle;
+  object-fit: contain; /* Ensure the image fits within the size */
+}
+
+

@@ -1,0 +1,25 @@
+/* Sidebar Styles */
+.additional {
+    margin-top: 34px;
+    width: 250px;
+    background-color: var(--color2); /* Sidebar background color */
+    padding: 10px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1); /* Optional: Shadow for the sidebar */
+    position: sticky;
+    top: 0;
+    right: 0;    /* Align the sidebar to the right */
+  }
+  
+  /* Sidebar button styles */
+  .additional-btn {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 7px 12px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none; /* Ensure no underlines */
+  }
+  
+  
+  
