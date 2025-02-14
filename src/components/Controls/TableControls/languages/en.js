@@ -1199,6 +1199,21 @@ const en = {
           edit: "Edit Contact",
           delete: "Delete Contact",
         // Contacts
+        // History
+        birth_title: "The Birth of MMSH Logistics",
+        birth_text: "In 2019, three visionary brothers—Minhojidin, MuhammadAli, and Shukurillo—founded MMSH Logistics. They had a dream of building a logistics company that could connect businesses across the world.",
+        challenges_title: "Challenges and Perseverance",
+        challenges_text: "Starting a logistics company was not easy. They faced numerous financial difficulties, operational roadblocks, and the challenge of gaining trust in a competitive industry. But their dedication and hard work never wavered.",
+        expand_title: "Expanding Horizons",
+        expand_text: "Despite the obstacles, MMSH Logistics grew rapidly. By forming strategic partnerships and continuously improving their services, they began working with businesses in different parts of the world.",
+        global_title: "Going Global",
+        global_text: "Today, MMSH Logistics partners with 34 countries across Europe, Asia, and beyond. Their global presence is a testament to their commitment to excellence in logistics.",
+        career_title: "Building Careers",
+        career_text: "MMSH Logistics is not just about transportation. It has become a hub for young and talented professionals, offering career opportunities in management, marketing, IT, and multilingual communication.",
+        future_title: "The Future of MMSH Logistics",
+        future_text: "With innovation, strong leadership, and a passion for logistics, MMSH Logistics continues to grow. The future holds even more opportunities for expansion and transformation in the global market.",
+        click_text: "Click this book to learn more about MMSH's history",
+        // History
     }   
 };
 

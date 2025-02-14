@@ -1201,7 +1201,22 @@ const uz = {
                 Phone_2: "Telefon 2 (Ixtiyoriy)",
                 edit: "Kontaktni tahrirlash",
                 delete: "Kontaktni o‘chirish",
-            // Contacts                                         
+            // Contacts         
+            // History
+            birth_title: "MMSH Logistikasining Yaralishi",
+            birth_text: "2019-yilda uch nafar zukko aka-uka – Minhojidin, MuhammadAli va Shukurillo MMSH Logistika kompaniyasiga asos solishdi. Ular global biznesni bog‘lovchi logistika kompaniyasini yaratishni orzu qilishgan.",
+            challenges_title: "Qiyinchiliklar va Sabot",
+            challenges_text: "Logistika kompaniyasini yaratish oson bo‘lmadi. Ular moliyaviy qiyinchiliklar, operatsion to‘siqlar va raqobatbardosh bozor sharoitida ishonch qozonish muammolari bilan to‘qnash kelishdi. Ammo ularning fidoyiligi va mehnati hech qachon so‘nmadi.",
+            expand_title: "Ko‘lamni Kengaytirish",
+            expand_text: "Qiyinchiliklarga qaramay, MMSH Logistika tez rivojlandi. Ular strategik hamkorliklarni yo‘lga qo‘ydilar va xizmatlarini doimiy takomillashtirish orqali dunyoning turli burchaklarida biznes olib bora boshladilar.",
+            global_title: "Dunyo Bo‘ylab Faoliyat",
+            global_text: "Bugungi kunda MMSH Logistika Yevropa, Osiyo va boshqa hududlardagi 34 mamlakat bilan hamkorlik qilmoqda. Ularning global ishtiroki – logistika sohasidagi mukammallikka intilishining natijasidir.",
+            career_title: "Yoshlar Uchun Imkoniyatlar",
+            career_text: "MMSH Logistika nafaqat transport balki yosh iste’dodlar uchun ham platforma bo‘lib xizmat qiladi. Kompaniya menejment, marketing, IT va ko‘p tilli mutaxassislar uchun yangi imkoniyatlar yaratib kelmoqda.",
+            future_title: "MMSH Logistikasining Kelajagi",
+            future_text: "Innovatsiya, kuchli yetakchilik va logistika sohasiga bo‘lgan ishtiyoq bilan MMSH Logistika rivojlanishda davom etmoqda. Kelajakda ular global bozorni yanada kengaytirish va zamonaviy texnologiyalarni joriy etishni maqsad qilgan.",
+            click_text: "MMSH tarixini bilish uchun kitobga bosing",
+            // History
     }
 };
 export default uz;

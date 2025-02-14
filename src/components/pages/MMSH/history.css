@@ -31,6 +31,7 @@
   border: 1px solid #ddd;
   width: 100%;  /* Ensure it takes full width of the container */
   box-sizing: border-box;  /* To include padding and border in width calculation */
+  padding: 15px;
 }
 
 .CoverBook {
@@ -43,7 +44,7 @@
   color: white;
 }
 .CoverBook p {
-  margin-top: 450px;
+  margin-top: 445px;
   font-size: 20px;
   text-align: center;
   color: white;
@@ -63,3 +64,5 @@
   text-align: left;
   z-index: 0;  /* Ensure it appears above the flipbook */
 }
+
+

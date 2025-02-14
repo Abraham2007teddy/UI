@@ -87,7 +87,6 @@ import ProjectLogistics from './components/additional/Project_Logistics';
 import WarehouseServices from './components/additional/Warehouse_Services';
 // Additional 
 
-
 // Language Translation
 import { LanguageProvider } from '../src/Home/context/LanguageContext';
 // Language Translation
@@ -183,7 +182,6 @@ const App = () => {
             <Route path="Project_Logistics" element={<ProjectLogistics/>} />
             <Route path="Warehouse_Services" element={<WarehouseServices/>} />
           {/* additional */}
-      
         </Route>
       </Routes>
     </Router>

@@ -58,7 +58,7 @@ const RegulationsDocumentation = ({ regulationsData }) => {
                     key={index}
                     src={img.src}
                     alt={img.alt}
-                    style={{ width: '25%', height: 'auto', marginLeft: '10px' }}
+                    style={{ width: '30%', height: 'auto', marginLeft: '10px' }}
                   />
                 ))}
               </div>

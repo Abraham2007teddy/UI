@@ -21,9 +21,9 @@ import fourth_projects_image from '../../../assets/images/Transport/app.png';
 
 import vehicle_types from '../../../assets/images/for_pages/train_table.png';
 
-import cmr_1 from '../../../assets/images/for_pages/Trains/document_1.png';
-import cmr_2 from '../../../assets/images/for_pages/Trains/document_2.png';
-import cmr_3 from '../../../assets/images/for_pages/Trains/document_3.png';
+import sample_1 from '../../../assets/images/Transport/page_1.png';
+import sample_2 from '../../../assets/images/Transport/Sample_2.png';
+import sample_3 from '../../../assets/images/Transport/page_2.png';
 
 // Import Components
 import Geography from '../../objects/Geography_1'; 
@@ -78,9 +78,9 @@ const Trains = () => {
   const regulationsData = {
     title: t('regulations.title'),
     images: [
-      { src: cmr_1, alt: 'CMR Document' },
-      { src: cmr_2, alt: 'CMR Document 2' },
-      { src: cmr_3, alt: 'CMR Document 3' }
+      { src: sample_1, alt: 'CMR Document' },
+      { src: sample_2, alt: 'CMR Document 2' },
+      { src: sample_3, alt: 'CMR Document 3' }
     ],
     description: t('regulations.description'),
     regulationsList: t('regulations.list', { returnObjects: true }),
