@@ -24,7 +24,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        'http://127.0.0.1:8001/api/check-user/',
+        'http://127.0.0.1:8000/api1/check-user/',
         { username, password },
         { headers: { 'Content-Type': 'application/json' } }
       );

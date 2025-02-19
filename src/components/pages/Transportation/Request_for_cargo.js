@@ -73,7 +73,7 @@ const SignInForm = () => {
     };
 
     try {
-      const response = await axios.post('http://127.0.0.1:8004/api/cargo-requests/', formData, {
+      const response = await axios.post('http://127.0.0.1:8000/api2/cargo-requests/', formData, {
         headers: { 'Content-Type': 'application/json' },
       });
 

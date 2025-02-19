@@ -12,7 +12,7 @@ const Messages = () => {
   useEffect(() => {
     const fetchMessages = async () => {
       try {
-        const response = await fetch("http://localhost:8003/api/get-messages/");
+        const response = await fetch("http://localhost:8000/api4/get-messages/");
         if (!response.ok) {
           throw new Error(t("fetch_error", "Failed to fetch messages"));
         }
@@ -33,7 +33,7 @@ const Messages = () => {
     if (!confirmDelete) return;
     
     try {
-      const response = await fetch(`http://localhost:8003/api/delete-message/${messages[index].id}/`, {
+      const response = await fetch(`http://localhost:8000/api4/delete-message/${messages[index].id}/`, {
         method: "DELETE",
       });
       if (!response.ok) {

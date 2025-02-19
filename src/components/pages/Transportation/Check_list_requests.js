@@ -4,7 +4,7 @@ import axios from 'axios';
 import { FaArrowRight, FaBox, FaMapMarkedAlt } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
-const API_URL = 'http://127.0.0.1:8004/api/cargo-requests/';
+const API_URL = 'http://127.0.0.1:8000/api2/cargo-requests/';
 
 const CargoList = () => {
     const { t } = useTranslation();

@@ -3,7 +3,7 @@ import axios from "axios";
 import { FaTelegram, FaWhatsapp, FaPlus, FaEdit, FaTrash, FaSearch } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
-const API_URL = "http://localhost:8002/api/contacts/";
+const API_URL = "http://127.0.0.1:8000/api3/contacts/";
 
 const Contacts = () => {
   const [contacts, setContacts] = useState([]);

@@ -63,7 +63,7 @@ const Sidebar_products = ({ name = "Gordon Ramsey", image = personImage }) => {
   const handleSubmit = async () => {
     setLoading(true);
     try {
-      const response = await fetch("http://127.0.0.1:8003/api/send-message/", {
+      const response = await fetch("http://127.0.0.1:8000/api4/send-message/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
