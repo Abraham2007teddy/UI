@@ -137,7 +137,7 @@ const Footer = () => {
                 </AnimatedIcon>
               </li>
             </ul>
-            <h6>Made with 🤍 by Ibo</h6>
+            <h6>Powered by MMSH Digital Team</h6>
           </div>
         </footer>
       </div>
