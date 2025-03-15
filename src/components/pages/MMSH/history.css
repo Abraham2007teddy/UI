@@ -55,7 +55,7 @@
   position: absolute;
   left: 0;
   margin-left: 300px;
-  top: 50%;
+  top: 70%;
   transform: translateY(-100%);  /* Center vertically */
   font-size: 30px;
   color: var(--color1);
