@@ -54,7 +54,7 @@
 .leftText {
   position: absolute;
   left: 0;
-  margin-left: 300px;
+  margin-left: 350px;
   top: 70%;
   transform: translateY(-100%);  /* Center vertically */
   font-size: 30px;
